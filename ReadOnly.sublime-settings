@@ -1,6 +1,4 @@
 {
 	"auto_readonly"					: false,	// 打开文件是否默认只读
-	"deactivated_lock"				: false,	// 文件失去焦点是否自动锁定只读
-	"jumpy_use_file_extensions"		: true,
-  	"jumpy_use_upper_case_labels"	: false
+	"deactivated_lock"				: false 	// 文件失去焦点是否自动锁定只读
 }
