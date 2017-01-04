@@ -4,7 +4,7 @@
         "children":
         [
             {
-                "caption": "Silk Bag",
+                "caption": "Read Only",
                 "children": [
                     { "caption": "Readonly", "command": "set_readonly" },
                     { "caption": "Writable", "command": "set_writable" },
