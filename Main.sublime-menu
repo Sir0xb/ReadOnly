@@ -1,0 +1,100 @@
+[
+    {
+        "id": "view",
+        "children":
+        [
+            {
+                "caption": "Silk Bag",
+                "children": [
+                    { "caption": "Readonly", "command": "set_readonly" },
+                    { "caption": "Writable", "command": "set_writable" },
+                    { "caption": "Toggle Auto Readonly", "command": "toggle_auto_readonly" }
+                ]
+            }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Silk Bag",
+                        "children":
+                        [
+                            // Settings
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/SilkBag/SilkBag.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/SilkBag.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" },
+                            // Keybindings - Default
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/SilkBag/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/SilkBag/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/SilkBag/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                }
+                            },
+                            // Keybindings - User
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
+                                    "platform": "OSX"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                }
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                    "platform": "Windows"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

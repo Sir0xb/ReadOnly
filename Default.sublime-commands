@@ -1,0 +1,14 @@
+[
+    {
+      "caption": "SilkBag: Readonly",
+      "command": "set_readonly"
+    },
+    {
+      "caption": "SilkBag: Writable",
+      "command": "set_writable"
+    },
+    {
+      "caption": "SilkBag: Toggle Auto Readonly",
+      "command": "toggle_auto_readonly"
+    }
+]

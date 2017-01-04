@@ -1,0 +1,5 @@
+[
+	{ "keys": [""], "command": "set_writable" },
+	{ "keys": [""], "command": "set_readonly"},
+	{ "keys": [""], "command": "toggle_auto_readonly"}
+]
